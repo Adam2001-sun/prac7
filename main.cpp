@@ -14,13 +14,8 @@ using namespace std;
 
 Sort *bubblesort = new BubbleSort();
 Sort *quicksort = new QuickSort();
+RecursiveBinarySearch *recur = new RecursiveBinarySearch();
 
 int main(){
-
-    vector<int> result1 = bubblesort-> sort(vector<int>{-5,-8,-4,-2,-1});
-    for(int i = 0; i < result1.size();i++) {
-        std::cout << result1[i] << " ";
-    }
-    cout<<endl;
 
 }
