@@ -18,8 +18,6 @@ public:
 
     int binarySearch(vector<int> array, int start, int end, int target);
 
-
-
 };
 
 
