@@ -10,11 +10,12 @@
 class BubbleSort: public Sort {
 
 public:
-
-
     BubbleSort();
 
     std::vector<int> sort(std::vector<int> list) override;
+
+private:
+std::vector<int> storage;
 
 
 };

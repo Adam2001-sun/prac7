@@ -10,13 +10,9 @@ using namespace std;
 
 
 class RecursiveBinarySearch {
-
 public:
-    RecursiveBinarySearch();
-
-    bool search(std::vector<int>, int);
-
-    int binarySearch(vector<int> array, int start, int end, int target);
+RecursiveBinarySearch();
+bool search(std::vector<int>, int);
 
 };
 

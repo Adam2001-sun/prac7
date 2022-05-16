@@ -12,10 +12,8 @@
 
 using namespace std;
 
-Sort *bubblesort = new BubbleSort();
-Sort *quicksort = new QuickSort();
-RecursiveBinarySearch *recur = new RecursiveBinarySearch();
-
 int main(){
+
+    
 
 }
